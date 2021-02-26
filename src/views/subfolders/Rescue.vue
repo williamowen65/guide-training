@@ -110,6 +110,24 @@
     </div>
 
   </div>
+  <div v-if="rescue == 'Stirrup'">
+    <h1>{{ rescue }}</h1>
+
+    <p>This video show the concept of a stirrup. It basically is a make-shift one-step ladder.</p>    
+
+    <div class="iframe">
+      <iframe src="https://www.youtube.com/embed/u78ehcX-oak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+    </div>
+  </div>
+  <div v-if="rescue == 'The Scoop'">
+    <h1>{{ rescue }}</h1>
+
+    <p></p>    
+
+    <div class="iframe">
+      <iframe src="https://www.youtube.com/embed/wE5y_DW2h04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+    </div>
+  </div>
 </div>
 
 </template>

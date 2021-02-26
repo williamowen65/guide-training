@@ -3,10 +3,10 @@
  <h1> {{ id }}</h1>
 <p>Are there any spot's along your route where you are going to be fighting the current? Ideally not many. Your group is only as strong as the weakest paddler and there is a stategic safety perspective to understanding the currents.</p>
  
- <p>Hypothectical case:</p>
-  <p class="box">What if someone was injured and you were towing them? Maybe they're also unstable, and need another kayak to brace them for support (See <router-link :to="{ name: 'Rescue', params: { rescue: 'Towing' }}">Contact Tow</router-link>). Now you are towing two kayaks, god forbid you are also against the current.</p>
+ <!-- <p>Hypothectical case:</p>
+  <p class="box">What if you were towing who was someone was injured? Maybe they're also unstable, and need another kayak to brace them for support (See <router-link :to="{ name: 'Rescue', params: { rescue: 'Towing' }}">Contact Tow</router-link>). Now you are towing two kayaks, god forbid you are also against the current.</p>
 
-  <p>So don't put yourself in that situation by taking the time to understand currents. Have a plan. Observe your plan against the backdrop of the actual currents and compare.</p>
+  <p>So don't put yourself in that situation by taking the time to understand currents. Have a plan. Observe your plan against the backdrop of the actual currents and compare.</p> -->
 
   <p>This section is to provide information to help you understand your resources and create your workflow.</p>
 
@@ -82,6 +82,10 @@
   <div class="field">
     <input type="checkbox" name="towBelt" id="towBelt">
     <label for="towBelt">Tow Belt </label>
+  </div>
+  <div class="field">
+    <input type="checkbox" name="stirrup" id="stirrup">
+    <label for="towBelt">Stirrup </label>
   </div>
   <div class="field">
     <input type="checkbox" name="water" id="water">
@@ -192,15 +196,16 @@
   <div v-if="id == 'Back Eddies'">
   <h1>{{ id }}</h1>
 
-  <p>When they exist they can be extremely useful for your trip. </p>
+ 
     
-  <p>Back eddies are counter currents that travel the opposite direction of the main current, and in the Haro Strait can take up the inshore space anywhere from 1 to 300 meters ( depending on the location, among other conditions )</p>
+  <p>Back eddies are counter currents that travel the opposite direction of the main current, and  when they exist they can be extremely useful for your trip. </p>
+  <p>In the Haro Strait they can take up the inshore space anywhere from 1 to 300 meters ( depending on the location, among other conditions )</p>
 
   <p>They only exist if the conditions are right and but harder to predict by simply looking up the currents. <b>So you definelty don't plan your trip depending on back eddies.</b></p>
 
   <p>Aside from location and main currents speed, back eddies are also effected by the angle of moon, Earth, and Sun. Meaning that familiar back eddies can be non-existant while the current rages in a singular direction.</p>
 
-  <p>They become slightly easier to predict by observation once you get out there everyday.</p>
+  <p>They only become slightly easier to predict by observation once you get out there day to day basis.</p>
 
   </div>
   

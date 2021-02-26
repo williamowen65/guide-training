@@ -13,7 +13,7 @@
 
   <p>It is a requirement that all guides can perform these basic rescues in a short amount of time (Aiming for that less than a minute mark)</p>
 
-  <p>The most important thing is that you are able to get yourself, or guests back in, <b>any way possible.</b> But here are a few options which you will you'll have the chance to practice early in the season and periodically through the summer.</p>
+  <p>The most important thing is that you are able to get yourself, or guests back in, <b>any way possible.</b> But here are a few options which you will have the chance to practice early in the season and periodically through the summer.</p>
 
   <div class="box">
    <p>A rescue doesn't stop when the wet ones are back in their seat, but when they have their composure back. (60 second - 5 minutes)</p>
@@ -38,6 +38,12 @@
 
   <ul>
       <li><router-link :to="{ name: 'Rescue', params: { rescue: 'T-rescue'}}"> T-rescue </router-link></li>
+  </ul>
+
+  <p>If you are having trouble getting guests back up into their boat, for various reasons, here are some alternatives</p>
+  <ul>
+    <li><router-link :to="{ name: 'Rescue', params: { rescue: 'Stirrup' }}">Stirrup</router-link> -- Stirrups are a prop on your trip packing list</li>
+    <li><router-link :to="{ name: 'Rescue', params: { rescue: 'The Scoop' }}">The Scoop</router-link> -- Simplifying the rescue for injured guest</li>
   </ul>
 </div>
 

@@ -12,7 +12,7 @@
     <p style="text-align: center">I'll add to this periodically. I break it down between these two categories:</p>
 
     <div class="breakdown">
-        <p>The <router-link to="/env-sci/geology">Geology</router-link> of the area </p>
+        <p>The <router-link to="/env-sci/geology">Geography</router-link> of the area </p>
         <p>&</p>
         <p><router-link to="/env-sci/ecology">Ecology</router-link> -- Plants & Animals </p>
     </div>
